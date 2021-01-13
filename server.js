@@ -7,7 +7,7 @@ const routes = require('./src/routes');
 
 const app = express();
 
-const uri = 'mongodb+srv://admin:10minutos@cluster0.tbyea.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://admin:10minutos@cluster0.tbyea.mongodb.net/Cluster0?retryWrites=true&w=majority';
 
 //const uri = 'mongodb://localhost:27017/db_seguro';
 

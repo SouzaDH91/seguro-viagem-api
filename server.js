@@ -31,7 +31,7 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(process.env.PORT || '5000', () => {
+app.listen(process.env.PORT || '3000', () => {
 
-    console.log('Servidor funcionando no caminho: http://localhost:5000')
+    console.log('Servidor funcionando no caminho: http://localhost:3000')
 })
